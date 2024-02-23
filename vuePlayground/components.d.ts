@@ -8,15 +8,11 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    IBi0Circle: typeof import('~icons/bi/0-circle')['default']
-    IBiMbiPlus: typeof import('~icons/bi/mbi-plus')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
-    IMdiAccountBox: typeof import('~icons/mdi/account-box')['default']
-    IMdiPlus: typeof import('~icons/mdi/plus')['default']
     INotoV1Plus: typeof import('~icons/noto-v1/plus')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
